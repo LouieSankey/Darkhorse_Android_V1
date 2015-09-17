@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/opponentPlayerLinearLayout"
+    android:weightSum="3.75">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".88" >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/oppImageView"
+            android:src="@drawable/anthony_davis"
+            android:adjustViewBounds="true"
+            android:paddingRight="5dp"
+            android:scaleType="fitEnd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="virtual_opp"
+            android:id="@+id/oppUserName"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/opponentVs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Anthony Davis"
+            android:id="@+id/opponentName"
+            android:layout_above="@+id/opponentVs"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Price: $12,000"
+            android:id="@+id/opponentValue"
+            android:textSize="16sp"
+            android:layout_above="@+id/oppFundsRemaining"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Funds Remaining: $2,100"
+            android:id="@+id/oppFundsRemaining"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/oppImageView"
+            android:paddingBottom="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/opponentVs"
+            android:layout_above="@+id/opponentValue"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.14"
+
+
+
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/relative1layout">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Pt"
+                    android:id="@+id/textView17"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Reb"
+                    android:id="@+id/textView22"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Ast"
+                    android:id="@+id/textView23"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Stl"
+                    android:id="@+id/textView24"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Blk"
+                    android:id="@+id/textViewblks"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Fg%"
+                    android:id="@+id/textViewfg"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="TO"
+                    android:id="@+id/textViewto"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="27.3"
+                    android:id="@+id/opponentPtsAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="8.8"
+                    android:id="@+id/opponentRebsAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="6.2"
+                    android:id="@+id/opponentAstsAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="2.1"
+                    android:id="@+id/opponentStlsAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1.8"
+                    android:id="@+id/opponentBlksAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=".55"
+                    android:id="@+id/opponentFgAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1.2"
+                    android:id="@+id/opponentTOsAve"
+                    android:gravity="center"
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".66">
+
+        <TextView android:id="@+id/setMatchEmptyView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Match-up Preview"
+            android:gravity="center"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView android:id="@+id/setMatchDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/setMatchEmptyView"
+            android:text="You will have to set up a match with each opponent \n after you draft your player"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center_horizontal">
+        </TextView>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buyStatsLayout"
+            android:layout_alignParentBottom="true">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:id="@+id/tableLayout"
+
+                android:layout_alignParentEnd="false"
+                android:gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_alignParentTop="false"
+                android:layout_centerInParent="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Pt"
+                        android:id="@+id/textView28"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Reb"
+                        android:id="@+id/textView29"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Ast"
+                        android:id="@+id/textView30"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Stl"
+                        android:id="@+id/textView31"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Blk"
+                        android:id="@+id/textView33"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Fg%"
+                        android:id="@+id/textView34"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="+TO"
+                        android:id="@+id/textView35"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="  $600  "
+                        android:id="@+id/textView59"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="$1,000"
+                        android:id="@+id/textView61"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="$1,200"
+                        android:id="@+id/textView64"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="$3,250"
+                        android:id="@+id/textView65"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="$3,100"
+                        android:id="@+id/textView69"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" $400 "
+                        android:id="@+id/textView70"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="$3,100"
+                        android:id="@+id/textView71"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/ptEditText"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:hint="0"
+                        android:gravity="center" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/rebEditText"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:hint="0"
+                        android:gravity="center" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/assEditText"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:hint="0"
+                        android:gravity="center" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/stlEditText"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:hint="0"
+                        android:gravity="center" />
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/blkEditText"
+                        android:textSize="16sp"
+                        android:hint="0"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/editText7"
+                        android:textSize="16sp"
+                        android:hint=".0"
+                        android:gravity="center"
+                        android:numeric="decimal"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/editText8"
+                        android:textSize="16sp"
+                        android:hint="0"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Use remaining funds (in blue) to subtract from opponents final stat line"
+                android:id="@+id/textView54"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tableLayout"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_below="@+id/tableLayout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Win Best of 7 Categories"
+                android:id="@+id/textView25"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/tableLayout"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".88" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET MATCH"
+            android:id="@+id/setMatchButton"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW MATCH"
+            android:id="@+id/viewResultsButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp" />
+    </RelativeLayout>
+</LinearLayout>

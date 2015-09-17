@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="oneonanyone.com.fantasybasketball_1onany1.OpponentListActivity"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_below="@android:id/list">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Drafted Players (Click to Preview)"
+        android:id="@+id/textView46"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/draftPlayerButton"
+        android:layout_below="@+id/leageNameTextView" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DRAFT STEPHEN CURRY"
+        android:id="@+id/draftPlayerButton"
+
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW LEADERBOARD"
+        android:id="@+id/refreshButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/leageNameTextView"
+        android:layout_below="@+id/textView46"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4c69ff" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:text="There are no players drafted for this contest yet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

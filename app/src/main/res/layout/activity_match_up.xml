@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="oneonanyone.com.fantasybasketball_1onany1.MatchUpOpponentActivity"
+    android:id="@+id/matchuplayout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".88"
+        android:id="@+id/relativeLayout2" >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectedPlayerImageView"
+            android:src="@drawable/anthony_davis"
+            android:adjustViewBounds="true"
+            android:paddingRight="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitEnd"
+            android:layout_alignParentBottom="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectedPlayerSpinner"
+            android:layout_alignTop="@+id/selectedPlayerVs"
+            android:layout_toEndOf="@+id/selectedPlayerImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="username"
+            android:id="@+id/username"
+            android:gravity="right"
+            android:textColor="#4c69ff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Anthony Davis"
+            android:id="@+id/playerNameTextView"
+            android:layout_above="@+id/selectedPlayerSpinner"
+            android:layout_toEndOf="@+id/selectedPlayerImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Price: $12,000"
+            android:id="@+id/playerValueTextView"
+            android:textSize="16sp"
+            android:layout_above="@+id/fundsRemainingLabel"
+            android:layout_toEndOf="@+id/selectedPlayerImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Funds Remaining: "
+            android:id="@+id/fundsRemainingLabel"
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/selectedPlayerImageView"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/selectedPlayerVs"
+            android:layout_above="@+id/playerValueTextView"
+            android:layout_toEndOf="@+id/selectedPlayerImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$2,100"
+            android:id="@+id/remainingCapTextView"
+            android:layout_alignTop="@+id/fundsRemainingLabel"
+            android:layout_toEndOf="@+id/fundsRemainingLabel"
+            android:textColor="#4c69ff" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:maxWidth="35dp"
+            android:maxHeight="35dp"
+            android:id="@+id/checkImageView"
+            android:src="@drawable/green_check_mark"
+            android:layout_alignBottom="@+id/playerNameTextView"
+            android:layout_toEndOf="@+id/playerNameTextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.05"
+        android:background="#4c69ff"
+        android:id="@+id/relativeLayoutTop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pts "
+            android:id="@+id/ptsLabel"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/rebsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="25.5"
+            android:id="@+id/pointsTextView"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_below="@+id/ptsLabel"
+            android:layout_alignStart="@+id/ptsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Asts "
+            android:id="@+id/astsLabel"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4.4"
+            android:id="@+id/assistsTextView"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_below="@+id/astsLabel"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Rebs "
+            android:id="@+id/rebsLabel"
+            android:layout_marginRight="20dp"
+            android:layout_above="@+id/assistsTextView"
+            android:layout_toStartOf="@+id/astsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="9.8"
+            android:id="@+id/reboundsTextView"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_below="@+id/rebsLabel"
+            android:layout_alignStart="@+id/rebsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Stls "
+            android:id="@+id/textView39"
+            android:layout_marginLeft="20dp"
+            android:layout_above="@+id/assistsTextView"
+            android:layout_toEndOf="@+id/astsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4.4"
+            android:id="@+id/stealsTextView"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/assistsTextView"
+            android:layout_alignStart="@+id/textView39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Blks "
+            android:id="@+id/textView43"
+            android:layout_marginLeft="20dp"
+            android:layout_above="@+id/stealsTextView"
+            android:layout_toEndOf="@+id/textView39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="2.2"
+            android:id="@+id/blocksTextView"
+            android:layout_below="@+id/textView43"
+            android:layout_alignStart="@+id/textView43"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".31"
+        android:id="@+id/fragment_container">
+
+      <!--<fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="android.app.Fragment"
+            android:id="@+id/fragment_container"
+            android:layout_gravity="center"
+            tools:layout="@layout/fragment_opponent" />-->
+    </FrameLayout>
+
+</LinearLayout>

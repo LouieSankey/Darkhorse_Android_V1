@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/opponentPlayerLinearLayout"
+    android:weightSum="3.75">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".88" >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/oppImageView"
+            android:src="@drawable/anthony_davis"
+            android:adjustViewBounds="true"
+            android:paddingRight="5dp"
+            android:scaleType="fitEnd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="virtual_opp"
+            android:id="@+id/oppUserName"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/opponentVs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Anthony Davis"
+            android:id="@+id/opponentName"
+            android:layout_above="@+id/opponentVs"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Price: $12,000"
+            android:id="@+id/opponentValue"
+            android:textSize="16sp"
+            android:layout_above="@+id/oppFundsRemaining"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Funds Remaining: $2,100"
+            android:id="@+id/oppFundsRemaining"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/oppImageView"
+            android:paddingBottom="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/opponentVs"
+            android:layout_above="@+id/opponentValue"
+            android:layout_toEndOf="@+id/oppImageView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.14"
+
+
+
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/relative1layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Asts"
+            android:id="@+id/oppAstsLabel"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4.4"
+            android:id="@+id/opponentAstsAve"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/opponentStlsAve"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Rebs"
+            android:id="@+id/oppRebsLabel"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/oppAstsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="9.2"
+            android:id="@+id/opponentRebsAve"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/opponentAstsAve"
+            android:layout_alignStart="@+id/oppRebsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pts"
+            android:id="@+id/oppPtsLabel"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/oppRebsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="20.3"
+            android:id="@+id/opponentPtsAve"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/opponentRebsAve"
+            android:layout_alignEnd="@+id/oppPtsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Stls"
+            android:id="@+id/oppStlsLabel"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/oppAstsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1.2"
+            android:id="@+id/opponentStlsAve"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_below="@+id/oppStlsLabel"
+            android:layout_alignEnd="@+id/oppStlsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Blks"
+            android:id="@+id/oppBlksLabel"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/oppStlsLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="2.2"
+            android:id="@+id/opponentBlksAve"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/opponentStlsAve"
+            android:layout_alignEnd="@+id/oppBlksLabel" />
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight=".66">
+
+    <TextView android:id="@+id/setMatchEmptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Match-up Preview"
+        android:gravity="center"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView android:id="@+id/setMatchDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/setMatchEmptyView"
+        android:text="You will have to set up a match with each opponent \n after you draft your player"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal">
+    </TextView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buyStatsLayout"
+        android:layout_margin="2dp">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="2"
+            android:id="@+id/ptEditText"
+            android:layout_marginRight="10dp"
+            android:selectAllOnFocus="true"
+            android:hint="0"
+            android:layout_alignTop="@+id/rebEditText"
+            android:layout_toStartOf="@+id/rebEditText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="2"
+            android:id="@+id/stlEditText"
+            android:layout_marginLeft="10dp"
+            android:selectAllOnFocus="true"
+            android:hint="0"
+            android:layout_alignTop="@+id/assEditText"
+            android:layout_toEndOf="@+id/assEditText"
+            android:layout_marginRight="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="2"
+            android:id="@+id/assEditText"
+            android:selectAllOnFocus="true"
+            android:hint="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="2"
+            android:id="@+id/rebEditText"
+            android:layout_marginRight="10dp"
+            android:selectAllOnFocus="true"
+            android:hint="0"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/assEditText"
+            android:layout_toStartOf="@+id/assEditText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="2"
+            android:id="@+id/blkEditText"
+            android:layout_marginLeft="10dp"
+            android:selectAllOnFocus="true"
+            android:hint="0"
+            android:layout_alignTop="@+id/stlEditText"
+            android:layout_toEndOf="@+id/stlEditText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Use funds remaining (in blue) to subtract from opponents final stat line."
+            android:id="@+id/statsAgainstOpponent"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:layout_below="@+id/ptEditText"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-$600"
+            android:id="@+id/opponentAssists"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_above="@+id/ptEditText"
+            android:layout_alignStart="@+id/ptEditText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pt"
+            android:id="@+id/ptsPriceLabel"
+            android:layout_above="@+id/opponentAssists"
+            android:layout_alignStart="@+id/opponentAssists"
+            android:textStyle="italic"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-$1,000"
+            android:id="@+id/opponentFundsRemaining"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_above="@+id/rebEditText"
+            android:layout_alignStart="@+id/rebEditText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Reb"
+            android:id="@+id/rebsPriceLabel"
+            android:layout_above="@+id/opponentFundsRemaining"
+            android:layout_alignStart="@+id/opponentFundsRemaining"
+            android:textStyle="italic"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-$1,200"
+            android:id="@+id/opponentPoints"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_above="@+id/assEditText"
+            android:layout_alignStart="@+id/assEditText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ast"
+            android:id="@+id/astsPriceLabel"
+            android:textStyle="italic"
+            android:layout_above="@+id/opponentPoints"
+            android:layout_alignStart="@+id/opponentPoints"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Stl"
+            android:id="@+id/stlsPriceLabel"
+            android:textStyle="italic"
+            android:layout_above="@+id/textView63"
+            android:layout_alignStart="@+id/textView63"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-$3,100"
+            android:id="@+id/textView60"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_above="@+id/blkEditText"
+            android:layout_alignStart="@+id/blkEditText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Blk"
+            android:id="@+id/blksPriceLabel"
+            android:layout_above="@+id/textView60"
+            android:layout_alignStart="@+id/textView60"
+            android:textStyle="italic"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Win Best of 5 Categories "
+            android:id="@+id/textView62"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-$3,250"
+            android:id="@+id/textView63"
+            android:textSize="13sp"
+            android:layout_above="@+id/stlEditText"
+            android:layout_alignStart="@+id/stlEditText" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".88" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET MATCH"
+            android:id="@+id/setMatchButton"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW MATCH"
+            android:id="@+id/viewResultsButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp" />
+    </RelativeLayout>
+</LinearLayout>

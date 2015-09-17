@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="oneonanyone.com.fantasybasketball_1onany1" >
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".StealsApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DraftActivity"
+            android:label="PlayerListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MatchUpActivity"
+            android:label="@string/title_activity_matchup"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MatchUpResultsActivity"
+            android:label="@string/title_activity_game_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Login.SignUpAtivity"
+            android:label="@string/title_activity_sign_up_ativity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".ResultsActivity"
+            android:label="@string/title_activity_new_results"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:label="@string/title_activity_leader_board"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

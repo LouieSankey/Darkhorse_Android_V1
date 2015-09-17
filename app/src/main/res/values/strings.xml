@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FantasyBasketball_1onany1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_player">ViewPlayerActivity</string>
+    <string name="no_player_stats_data">There is no player data to display</string>
+    <string name="title_activity_matchup">MatchupActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_game_results">gameResultsActivity</string>
+    <string name="title_activity_log_sign_up">LogSignUpActivity</string>
+    <string name="title_activity_sign_up_ativity">SignUpAtivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_single_player_profile">SinglePlayerProfile</string>
+    <string name="title_activity_opponent_list">OpponentListActivity</string>
+    <string name="title_activity_read_me">ReadMeActivity</string>
+    <string name="title_activity_opponent">OpponentActivity</string>
+    <string name="title_activity_match_up_fragment">MatchUpFragmentActivity</string>
+    <string name="title_activity_match_up_opponent">MatchUpOpponentActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_results">NewResultsActivity</string>
+    <string name="title_activity_leader_board">LeaderBoardActivity</string>
+
+</resources>

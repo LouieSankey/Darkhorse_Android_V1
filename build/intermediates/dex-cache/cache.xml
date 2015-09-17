@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-cc2e019cdb8f5f2aac2eed627596a8bf9f412623.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-52651fbeb69c5f42705876cf906836b5a6cf96ec.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-399ed7c31d62ec44047c4b51f05c99eefe14ebaa.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-95a7ace77677c210eaa8710712bb5e2812abc314.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-61a38ed4a00ae96baef67e046acbebd6ea9406c2.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-d6341fcf839ef8e1ac4809759aaed8e128877b87.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-e85ded57e25eaa004a8ee5749387b4a01faf57bf.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-346254e13f728bb140cbdc286d60bb66281bdcd1.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-48f7c0b18f3ec32a38dcb08fc424395ef06071f6.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-16395cce6a8affa28138d44dd55d7f078da3b424.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-d094716079530f8b86246c89027e20234f3b693a.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-d988685174c8a9e97d7bed2aefa8fd09b3a1b815.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-f4b75ae4604758af5b25f1ecbdc9a065f78bbb1a.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-bbc6401a18c6126820bdd3f90d2e9371559fb5c9.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-5b6b1c1e22e1673cb41222bf89f6cc6b195675b0.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-3c65d7551ffc22c42c6d05e6beff14245974cbd9.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-3c26d5ac076ffd43b3f63509a6a5efdb1a7d58b2.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-8871cef31efcf48fb162bb0cf8f5d388d125d955.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-6ffb5db017e9dd4e1ca7b4bd5b0a0fdde9abcdf9.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-ea94d828dc03476885eb5db55f5473e82c128225.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-d4de77bd6a1e6e61d23626bc855b63a780084875.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/libs/Parse-1.9.4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/Parse-1.9.4-5546feef3357c75b1e5f362f3ee6551df6b5b39a.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-95d1c4edcf1294284eb9218a2e390653b155456d.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-db42bb2c649455813e686a35953605ece7c0efa6.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-4f3cc31ce51e0ac45f3aa4de5d0129bfe95f370d.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-95f6ff6c4570d0cbb38c138ac786a40c8614d9c0.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/classes-9fd2f282dbce757c92947ecd81a3f2e171a99f70.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/okio-1.4.0-d5e23bb026119fdbd74be320a8141f6d8fa781ee.jar" />
+    </item>
+    <item
+        jar="/Users/lsankey/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/lsankey/AndroidStudioProjects/1onany1/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-34792e5fdf5e4a590b151661526d046d9f82d10b.jar" />
+    </item>
+
+</items>

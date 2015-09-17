@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    tools:context="oneonanyone.com.fantasybasketball_1onany1.MainActivity"
+    android:id="@+id/mainLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="username "
+        android:id="@+id/username"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:textColor="#4c69ff"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView10"
+        android:gravity="center_horizontal"
+        android:text="stealz"
+        android:textSize="50sp"
+        android:typeface="monospace"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentStart="true" />
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Player Profile"
+        android:id="@+id/button"
+        android:layout_above="@+id/logOutTextView"
+        android:layout_alignParentEnd="true" />-->
+
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opponents ListView"
+        android:id="@+id/opponentListView"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1 on 1"
+        android:id="@+id/textView13"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectPlayerButton"
+        android:text="GO TO DRAFT"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log Out"
+        android:id="@+id/logOutTextView"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/selectPlayerButton"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fantasy Basketball"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="140dp" />
+
+</RelativeLayout>
